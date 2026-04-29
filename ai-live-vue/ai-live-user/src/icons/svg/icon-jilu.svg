@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="16" viewBox="0 0 24 16">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="_-mask-" data-name="-mask-" width="24" height="16" transform="translate(712 154)" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="记录" transform="translate(-712 -154)" clip-path="url(#clip-path)">
+    <g id="记录-2" data-name="记录" transform="translate(717.868 155)">
+      <path id="路径_2196" data-name="路径 2196" d="M73.878,68.89h-9.2a1.731,1.731,0,0,0-1.534,1.823V81.15a1.643,1.643,0,0,0,1.524,1.74h9.138a1.715,1.715,0,0,0,1.6-1.749v-10.5a1.66,1.66,0,0,0-1.532-1.751Zm.767,12.251a.892.892,0,0,1-.838.879H64.67a.822.822,0,0,1-.762-.87V70.713a.906.906,0,0,1,.772-.948h9.2a.83.83,0,0,1,.767.875v10.5Z" transform="translate(-63.146 -68.89)" stroke="#000" stroke-width="0.3"/>
+      <path id="路径_2197" data-name="路径 2197" d="M265.357,299.461H259.9a.452.452,0,0,1,0-.875h5.458a.452.452,0,0,1,0,.875Zm0-2.625H259.9a.452.452,0,0,1,0-.875h5.458a.452.452,0,0,1,0,.875Zm0-2.625H259.9a.452.452,0,0,1,0-.876h5.458a.452.452,0,0,1,0,.876Z" transform="translate(-256.495 -289.835)" stroke="#000" stroke-width="0.3"/>
+    </g>
+  </g>
+</svg>

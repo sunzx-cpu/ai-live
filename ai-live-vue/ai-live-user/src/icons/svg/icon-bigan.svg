@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="16" viewBox="0 0 24 16">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="_-mask-" data-name="-mask-" width="24" height="16" transform="translate(454.541 154)" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="臂杆" transform="translate(-454.541 -154)" clip-path="url(#clip-path)">
+    <g id="杠杆2" transform="translate(460.092 155)">
+      <path id="路径_2213" data-name="路径 2213" d="M583.834,307.917h1.091v10.762h-1.091Z" transform="translate(-577.931 -304.776)" stroke="#000" stroke-width="0.2"/>
+      <path id="路径_2214" data-name="路径 2214" d="M420.652,155.455h6.116a.2.2,0,0,1,.2.2v.695a.2.2,0,0,1-.2.2h-6.116a.2.2,0,0,1-.2-.2v-.695A.2.2,0,0,1,420.652,155.455Zm3.037-12.505a1.551,1.551,0,1,0,1.551,1.551A1.552,1.552,0,0,0,423.69,142.95Zm0,2.283a.731.731,0,1,1,0-1.463.733.733,0,0,1,.731.731A.724.724,0,0,1,423.69,145.233Z" transform="translate(-417.262 -142.546)" stroke="#000" stroke-width="0.2"/>
+      <path id="路径_2215" data-name="路径 2215" d="M233.461,120.662a1.136,1.136,0,0,1-.028-.236l-5.019,1.341a.545.545,0,0,0,.281,1.054l5.538-1.48A.938.938,0,0,1,233.461,120.662Zm1.723-.7a1.035,1.035,0,0,1,.093.218.921.921,0,0,1-.33.974l5.555-1.484a.545.545,0,0,0-.281-1.054Z" transform="translate(-228.009 -118.595)" stroke="#000" stroke-width="0.2"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.yaozhi.live.modules.biz.dao.LiveInteractKeywordDao">
+
+    <select id="queryPage" resultType="com.yaozhi.live.modules.biz.entity.LiveInteractKeywordEntity">
+        <include refid="selectListSql">
+        </include>
+    </select>
+
+    <select id="queryList" resultType="com.yaozhi.live.modules.biz.entity.LiveInteractKeywordEntity">
+        <include refid="selectListSql">
+        </include>
+    </select>
+
+    <sql id="selectListSql">
+        SELECT
+        A.*,
+        B.name projectName,
+        C.name scriptName
+        FROM tb_live_interact_keyword A
+        LEFT JOIN tb_live_project B ON A.project_id = B.id
+        LEFT JOIN tb_live_script C ON A.script_id = C.id
+        <where>
+            <if test="ew.userId != null and ew.userId != ''">
+                and A.user_id = #{ew.userId}
+            </if>
+            <if test="ew.projectId != null and ew.projectId != ''">
+                and A.project_id = #{ew.projectId}
+            </if>
+            <if test="ew.scriptId != null and ew.scriptId != ''">
+                and A.script_id = #{ew.scriptId}
+            </if>
+            <if test="ew.keyword != null and ew.keyword != ''">
+                and A.keyword like concat('%',#{ew.keyword},'%')
+            </if>
+        </where>
+        order by A.id desc
+    </sql>
+
+</mapper>

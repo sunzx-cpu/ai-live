@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="16" viewBox="0 0 24 16">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="_-mask-" data-name="-mask-" width="24" height="16" transform="translate(253.289 193.187)" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="详情" transform="translate(-253.289 -193.187)" clip-path="url(#clip-path)">
+    <g id="详情-2" data-name="详情" transform="translate(259 194)">
+      <path id="路径_2246" data-name="路径 2246" d="M73.433,14.374H67.144A3.183,3.183,0,0,1,64,11.23V3.144A3.183,3.183,0,0,1,67.144,0h6.289a3.183,3.183,0,0,1,3.144,3.144V11.23A3.183,3.183,0,0,1,73.433,14.374ZM67.144.9A2.224,2.224,0,0,0,64.9,3.144V11.23a2.224,2.224,0,0,0,2.246,2.246h6.289a2.224,2.224,0,0,0,2.246-2.246V3.144A2.224,2.224,0,0,0,73.433.9Z" transform="translate(-64 0)" fill="#36f" stroke="#36f" stroke-width="0.2"/>
+      <path id="路径_2247" data-name="路径 2247" d="M262.738,224.9h-6.289a.449.449,0,1,1,0-.9h6.289a.449.449,0,0,1,0,.9Z" transform="translate(-253.305 -220.856)" fill="#36f" stroke="#36f" stroke-width="0.2"/>
+      <path id="路径_2248" data-name="路径 2248" d="M262.738,416.9h-6.289a.449.449,0,1,1,0-.9h6.289a.449.449,0,0,1,0,.9Z" transform="translate(-253.305 -410.16)" fill="#36f" stroke="#36f" stroke-width="0.2"/>
+      <path id="路径_2249" data-name="路径 2249" d="M262.738,608.9h-6.289a.449.449,0,1,1,0-.9h6.289a.449.449,0,1,1,0,.9Z" transform="translate(-253.305 -599.465)" fill="#36f" stroke="#36f" stroke-width="0.2"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.yaozhi.live.modules.biz.dao.AiKnowledgeDao">
+
+    <!-- 获取项目的所有知识库记录 -->
+    <select id="selectListByProjectId" resultType="com.yaozhi.live.modules.biz.entity.AiKnowledgeEntity">
+        SELECT * FROM tb_ai_knowledge 
+        WHERE project_id = #{projectId} 
+        ORDER BY sort_order ASC, create_time ASC
+    </select>
+
+    <!-- 根据关键词搜索知识库记录 -->
+    <select id="selectByKeyword" resultType="com.yaozhi.live.modules.biz.entity.AiKnowledgeEntity">
+        SELECT * FROM tb_ai_knowledge 
+        WHERE project_id = #{projectId} 
+        AND (keywords LIKE CONCAT('%', #{keyword}, '%') 
+             OR question LIKE CONCAT('%', #{keyword}, '%')
+             OR answer LIKE CONCAT('%', #{keyword}, '%'))
+        ORDER BY sort_order ASC, create_time ASC
+    </select>
+
+    <!-- 根据问题内容搜索知识库记录（全文检索） -->
+    <select id="selectByQuestion" resultType="com.yaozhi.live.modules.biz.entity.AiKnowledgeEntity">
+        SELECT * FROM tb_ai_knowledge 
+        WHERE project_id = #{projectId} 
+        AND MATCH(question, answer) AGAINST(#{question} IN NATURAL LANGUAGE MODE)
+        ORDER BY sort_order ASC, create_time ASC
+    </select>
+
+    <!-- 批量插入知识库记录 -->
+    <insert id="insertBatch">
+        INSERT INTO tb_ai_knowledge (user_id, project_id, question, answer, keywords, sort_order, create_time, update_time)
+        VALUES
+        <foreach collection="list" item="item" separator=",">
+            (#{item.userId}, #{item.projectId}, #{item.question}, #{item.answer}, #{item.keywords}, #{item.sortOrder}, #{item.createTime}, #{item.updateTime})
+        </foreach>
+    </insert>
+
+</mapper> 

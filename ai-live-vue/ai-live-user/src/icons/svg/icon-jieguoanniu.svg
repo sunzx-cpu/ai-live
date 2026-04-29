@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="16" viewBox="0 0 24 16">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="_-mask-" data-name="-mask-" width="24" height="16" transform="translate(253 194.813)" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="结果" transform="translate(-253 -194.813)" clip-path="url(#clip-path)">
+    <g id="巡检结果" transform="translate(257.815 195.626)">
+      <path id="路径_2242" data-name="路径 2242" d="M35.37,35.187l-2.924-2.924a6.337,6.337,0,1,0-.85.859l2.927,2.924a.587.587,0,0,0,.422.178A.6.6,0,0,0,35.37,35.2ZM23.887,31.861a5.169,5.169,0,1,1,7.311,0,5.168,5.168,0,0,1-7.311,0Z" transform="translate(-21.173 -21.85)" fill="#36f"/>
+      <path id="路径_2243" data-name="路径 2243" d="M218.613,290.569l-3.236,3.23-1.906-1.9a.6.6,0,0,0-.847.847l2.327,2.324a.625.625,0,0,0,.425.175.6.6,0,0,0,.422-.175l3.658-3.655a.6.6,0,0,0-.843-.847Z" transform="translate(-209.673 -286.463)" fill="#36f"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,30 @@
+{
+    "version" : "1.0.0",
+    "prompt" : "template",
+    "title" : "Service Agreement and Privacy Policy",
+    "message" : "Please carefully read the terms of the Service Agreement and Privacy Policy, including but not limited to: In order to provide better services to you, we need to collect information such as your device identification and operation logs for analysis and optimization of application performance.<br/>　　You can read the < a href= \"http://visit-admin.antcentury.com/privacy/TermConditions.html\"> Service Agreement </ a> and < a href=\"http://visit-admin.antcentury.com/privacy/PrivacyPolicy.html\">Privacy Policy </ a> for detailed information. If you agree, please click the button below to start accepting our service.",
+    "buttonAccept" : "Agree",
+    "buttonRefuse" : "Disagree",
+    "hrefLoader" : "system|default",
+    "disagreeMode" : {
+        "support" : false,
+        "loadNativePlugins" : false,
+        "visitorEntry" : false
+    },
+    "styles" : {
+        "backgroundColor" : "#F7F7F7",
+        "borderRadius" : "5px",
+        "title" : {
+            "color" : "#EB292F"
+        },
+        "buttonAccept" : {
+            "color" : "#EB292F"
+        },
+        "buttonRefuse" : {
+            "color" : "#999999"
+        },
+        "buttonVisitor" : {
+            "color" : "#999999"
+        }
+    }
+}

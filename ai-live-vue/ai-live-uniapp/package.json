@@ -1,0 +1,18 @@
+{
+    "id": "ai-live-uniapp",
+    "name": "ai-live-uniapp",
+    "version": "1.0.0",
+    "description": "AI Live Streaming App - UniApp Framework",
+    "keywords": [
+        "live",
+        "streaming",
+        "AI",
+        "uniapp"
+    ],
+    "dcloudext": {
+        "category": [
+            "前端组件",
+            "通用组件"
+        ]
+    }
+}

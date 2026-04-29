@@ -1,0 +1,121 @@
+@import './variables.scss';
+@import './mixin.scss';
+@import './transition.scss';
+@import './element-ui.scss';
+@import './sidebar.scss';
+
+body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+svg {
+  display: inline-block !important;
+}
+
+html {
+  box-sizing: border-box;
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+div:focus {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+a,
+a:focus,
+a:hover {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+}
+
+.clearfix {
+  &:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+}
+
+//main-container全局样式
+.app-main {
+  min-height: 100vh;
+  width: 100%;
+}
+
+.app-container {
+  padding: 20px;
+}
+
+.container-left {
+  padding-left: 19px;
+}
+
+// 全局样式
+.m-l-5 {
+  margin-left: 5px;
+}
+
+.m-t-5 {
+  margin-top: 5px
+}
+
+.m-b-5 {
+  margin-bottom: 5px
+}
+
+.m-r-5 {
+  margin-right: 5px
+}
+
+.m-5 {
+  margin: 5px;
+}
+
+.m-l-10 {
+  margin-left: 10px;
+}
+
+.m-t-10 {
+  margin-top: 10px
+}
+
+.m-b-10 {
+  margin-bottom: 10px
+}
+
+.m-r-10 {
+  margin-right: 10px
+}
+
+.m-10 {
+  margin: 10px;
+}
+
+.flex-colum-center {
+  display: flex;
+  flex-direction: colum;
+  align-items: center;
+}

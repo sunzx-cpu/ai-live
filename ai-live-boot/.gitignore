@@ -1,0 +1,19 @@
+# =============================================================================
+# ai-live-boot - Spring Boot 后端项目特定规则
+# =============================================================================
+# 注意：通用规则（.idea, target, logs 等）已在根目录 .gitignore 中定义
+
+# Maven Wrapper
+.mvn/wrapper/maven-wrapper.jar
+
+# Spring Boot 特定
+spring-boot-run.log
+application-*.yml
+!application-dev.yml
+!application-prod.yml
+
+# 数据库文件（如果使用 H2）
+*.db
+
+# 上传文件目录
+upload/

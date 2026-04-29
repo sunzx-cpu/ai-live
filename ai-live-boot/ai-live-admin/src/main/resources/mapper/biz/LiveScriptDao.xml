@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.yaozhi.live.modules.biz.dao.LiveScriptDao">
+
+    <select id="queryPage" resultType="com.yaozhi.live.modules.biz.entity.LiveScriptEntity">
+        <include refid="selectListSql">
+        </include>
+    </select>
+
+    <select id="queryList" resultType="com.yaozhi.live.modules.biz.entity.LiveScriptEntity">
+        <include refid="selectListSql">
+        </include>
+    </select>
+
+    <sql id="selectListSql">
+        select
+            A.*,
+            B.name as projectName
+        from tb_live_script A
+        left join tb_live_project B on A.project_id = B.id
+        <where>
+            <if test="ew.userId != null and ew.userId != ''">
+                and A.user_id = #{ew.userId}
+            </if>
+            <if test="ew.projectId != null and ew.projectId != ''">
+                and A.project_id = #{ew.projectId}
+            </if>
+            <if test="ew.name != null and ew.name != ''">
+                and A.name like concat('%',#{ew.name},'%')
+            </if>
+        </where>
+        order by A.id desc
+    </sql>
+</mapper>

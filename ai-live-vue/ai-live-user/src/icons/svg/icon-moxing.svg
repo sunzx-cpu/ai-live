@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="16" viewBox="0 0 24 16">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="_-mask-" data-name="-mask-" width="24" height="16" transform="translate(355.636 154)" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="模型" transform="translate(-355.636 -154)" clip-path="url(#clip-path)">
+    <g id="工厂物理模型" transform="translate(361.491 155)">
+      <path id="路径_2209" data-name="路径 2209" d="M82.778,12.674,77.483,9.6a.853.853,0,0,0-.853,0l-5.3,3.075a.853.853,0,0,0-.423.735v6.152a.853.853,0,0,0,.423.735l5.295,3.075a.852.852,0,0,0,.853,0l5.3-3.075a.853.853,0,0,0,.423-.735V13.409A.853.853,0,0,0,82.778,12.674Zm-5.7,9.926L71.8,19.562l-.021-6.116,5.274-3.062L82.31,13.41l.021,6.117Z" transform="translate(-70.912 -9.485)" stroke="#000" stroke-width="0.3"/>
+      <path id="路径_2210" data-name="路径 2210" d="M209.325,318.111,205.7,320.2l-3.694-2.133a.446.446,0,1,0-.446.772l3.624,2.092V325.2a.446.446,0,1,0,.892,0v-4.185l3.694-2.133a.446.446,0,0,0-.446-.772Z" transform="translate(-199.522 -313.713)" stroke="#000" stroke-width="0.3"/>
+    </g>
+  </g>
+</svg>

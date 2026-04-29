@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="16" viewBox="0 0 24 16">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="_-mask-" data-name="-mask-" width="24" height="16" transform="translate(274.462 193.187)" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="下载" transform="translate(-274.462 -193.187)" clip-path="url(#clip-path)">
+    <g id="下载结果文件" transform="translate(280.815 194)">
+      <path id="路径_2238" data-name="路径 2238" d="M171.126,67.577l-3.209-3.209a.575.575,0,0,0-.409-.168H160.9a.9.9,0,0,0-.9.9V77.676a.9.9,0,0,0,.9.9h9.5a.9.9,0,0,0,.9-.9v-9.69A.579.579,0,0,0,171.126,67.577Zm-3.04-1.407,1.237,1.237h-1.237Zm-6.93,11.248V65.353h5.775v2.31a.9.9,0,0,0,.9.9h2.31v8.856Z" transform="translate(-160 -64.2)" fill="#36f"/>
+      <path id="路径_2239" data-name="路径 2239" d="M377.3,435.825h-1.548v-3.7a.124.124,0,0,0-.124-.124h-.908a.124.124,0,0,0-.124.124v3.7h-1.5a.13.13,0,0,0-.1.225l2.1,1.855a.16.16,0,0,0,.205,0l2.1-1.855A.13.13,0,0,0,377.3,435.825Z" transform="translate(-369.542 -426.099)" fill="#36f"/>
+    </g>
+  </g>
+</svg>

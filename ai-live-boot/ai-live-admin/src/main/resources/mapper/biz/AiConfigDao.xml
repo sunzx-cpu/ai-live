@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.yaozhi.live.modules.biz.dao.AiConfigDao">
+
+    <!-- 根据项目ID获取默认AI配置（第一个配置） -->
+    <select id="selectByProjectId" resultType="com.yaozhi.live.modules.biz.entity.AiConfigEntity">
+        SELECT * FROM tb_ai_config 
+        WHERE project_id = #{projectId} 
+        ORDER BY create_time ASC 
+        LIMIT 1
+    </select>
+
+    <!-- 根据项目ID和提示词名称获取配置 -->
+    <select id="selectByProjectIdAndPromptName" resultType="com.yaozhi.live.modules.biz.entity.AiConfigEntity">
+        SELECT * FROM tb_ai_config 
+        WHERE project_id = #{projectId} 
+        AND prompt_name = #{promptName}
+    </select>
+
+    <!-- 获取项目的所有AI配置列表 -->
+    <select id="selectListByProjectId" resultType="com.yaozhi.live.modules.biz.entity.AiConfigEntity">
+        SELECT * FROM tb_ai_config 
+        WHERE project_id = #{projectId} 
+        ORDER BY create_time ASC
+    </select>
+
+    <!-- 获取项目的所有提示词名称列表 -->
+    <select id="selectPromptNamesByProjectId" resultType="java.lang.String">
+        SELECT DISTINCT prompt_name FROM tb_ai_config 
+        WHERE project_id = #{projectId} 
+        ORDER BY create_time ASC
+    </select>
+
+</mapper> 

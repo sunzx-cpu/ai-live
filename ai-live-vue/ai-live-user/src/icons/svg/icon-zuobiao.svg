@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="16" viewBox="0 0 24 16">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="_-mask-" data-name="-mask-" width="24" height="16" transform="translate(316.809 154)" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="坐标" transform="translate(-316.809 -154)" clip-path="url(#clip-path)">
+    <g id="坐标-2" data-name="坐标" transform="translate(163.335 91.011)">
+      <path id="路径_2216" data-name="路径 2216" d="M322.945,229.961a3,3,0,1,1,3-3A3,3,0,0,1,322.945,229.961Zm0-5a2,2,0,1,0,2,2A2,2,0,0,0,322.945,224.962Z" transform="translate(-157.473 -157.473)" stroke="#000" stroke-width="0.3"/>
+      <path id="路径_2217" data-name="路径 2217" d="M165.472,77.989a.5.5,0,0,1-.36-.844c1.352-1.416,4.862-5.555,4.862-7.654a4.5,4.5,0,0,0-9,0c0,1.183,1.134,3.22,3.19,5.741a.5.5,0,0,1-.774.634c-2.268-2.782-3.419-4.924-3.419-6.378a5.5,5.5,0,0,1,11,0c0,2.927-4.929,8.125-5.139,8.345A.5.5,0,0,1,165.472,77.989Z" transform="translate(0)" stroke="#000" stroke-width="0.3"/>
+    </g>
+  </g>
+</svg>

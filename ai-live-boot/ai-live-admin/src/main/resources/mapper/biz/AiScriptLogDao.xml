@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.yaozhi.live.modules.biz.dao.AiScriptLogDao">
+
+    <!-- 获取项目的所有话术日志记录 -->
+    <select id="selectListByProjectId" resultType="com.yaozhi.live.modules.biz.entity.AiScriptLogEntity">
+        SELECT * FROM tb_ai_script_log 
+        WHERE project_id = #{projectId} 
+        ORDER BY create_time DESC
+    </select>
+
+    <!-- 根据话术类型获取日志记录 -->
+    <select id="selectByScriptType" resultType="com.yaozhi.live.modules.biz.entity.AiScriptLogEntity">
+        SELECT * FROM tb_ai_script_log 
+        WHERE project_id = #{projectId} 
+        AND script_type = #{scriptType}
+        ORDER BY create_time DESC
+    </select>
+
+    <!-- 获取用户的话术生成统计 -->
+    <select id="selectStatsByUserId" resultType="com.yaozhi.live.modules.biz.entity.AiScriptLogEntity">
+        SELECT 
+            script_type,
+            COUNT(*) as count,
+            SUM(generation_time) as total_time,
+            SUM(token_usage) as total_tokens,
+            SUM(cost) as total_cost
+        FROM tb_ai_script_log 
+        WHERE user_id = #{userId} 
+        GROUP BY script_type
+        ORDER BY count DESC
+    </select>
+
+</mapper> 

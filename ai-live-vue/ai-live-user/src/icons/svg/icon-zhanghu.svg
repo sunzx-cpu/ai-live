@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="16" viewBox="0 0 24 16">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="_-mask-" data-name="-mask-" width="24" height="16" transform="translate(661.358 154)" fill="rgba(0,0,0,0)" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="账户" transform="translate(-661.358 -154)" clip-path="url(#clip-path)">
+    <g id="_-_人员安置管理" data-name="-_人员安置管理" transform="translate(665.798 155)">
+      <path id="路径_2200" data-name="路径 2200" d="M307.2,307.2h5.6v1.12h-5.6Zm0,2.24h3.36v1.12H307.2Z" transform="translate(-304.96 -304.96)"/>
+      <path id="路径_2201" data-name="路径 2201" d="M206.465,218.24a1.646,1.646,0,0,1-1.12-.482,1.691,1.691,0,0,1-.56-1.165v-10.08a1.68,1.68,0,0,1,1.68-1.714h11.2a1.68,1.68,0,0,1,1.68,1.68v1.12a.56.56,0,1,1-1.12,0v-1.12a.56.56,0,0,0-.56-.56h-11.2a.56.56,0,0,0-.56.56v10.08a.526.526,0,0,0,.168.392.616.616,0,0,0,.4.168h2.24a.56.56,0,1,1,0,1.12h-2.251Z" transform="translate(-204.785 -204.8)"/>
+      <path id="路径_2202" data-name="路径 2202" d="M566,410.72a1.68,1.68,0,1,1-1.68,1.68,1.68,1.68,0,0,1,1.68-1.68m0-1.12a2.8,2.8,0,1,0,2.8,2.8A2.8,2.8,0,0,0,566,409.6Z" transform="translate(-555.36 -405.12)"/>
+      <path id="路径_2203" data-name="路径 2203" d="M494.8,644.124a.56.56,0,0,1-.56-.56,3.416,3.416,0,0,0-6.72,0,.56.56,0,0,1-1.12,0,4.52,4.52,0,0,1,8.96,0A.56.56,0,0,1,494.8,644.124Z" transform="translate(-480.24 -630.124)"/>
+    </g>
+  </g>
+</svg>
